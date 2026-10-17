@@ -1,0 +1,5 @@
+/* Cambiar la fuente a Noto Sans y reducir el tamaño solo en la barra lateral */
+#navigator-toolbox :is(.tab-label-container, zen-folder > .tab-group-label-container > label, #zia-space-label, .zen-current-workspace-indicator-name) {
+    font-family: "Noto Sans", sans-serif !important;
+    font-size: 11.5px !important;
+}
